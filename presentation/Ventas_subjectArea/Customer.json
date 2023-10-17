@@ -1,0 +1,12 @@
+{
+  "presentationTable" : {
+    "name" : "Customer",
+    "presentationColumns" : [ {
+      "name" : "Cust Key",
+      "sourceLogicalColumn" : "logicalColumn:Ventas Sales Bus Model.D3 Customers.Cust Key"
+    }, {
+      "name" : "Name",
+      "sourceLogicalColumn" : "logicalColumn:Ventas Sales Bus Model.D3 Customers.Name"
+    } ]
+  }
+}

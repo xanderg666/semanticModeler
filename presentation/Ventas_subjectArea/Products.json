@@ -1,0 +1,30 @@
+{
+  "presentationTable" : {
+    "name" : "Products",
+    "presentationColumns" : [ {
+      "name" : "Product",
+      "sourceLogicalColumn" : "logicalColumn:Ventas Sales Bus Model.D2 Products.Prod Dsc"
+    }, {
+      "name" : "Brand",
+      "sourceLogicalColumn" : "logicalColumn:Ventas Sales Bus Model.D2 Products.Brand"
+    }, {
+      "name" : "Type",
+      "sourceLogicalColumn" : "logicalColumn:Ventas Sales Bus Model.D2 Products.Type"
+    }, {
+      "name" : "Line of Business",
+      "sourceLogicalColumn" : "logicalColumn:Ventas Sales Bus Model.D2 Products.Lob"
+    }, {
+      "name" : "Sequence",
+      "sourceLogicalColumn" : "logicalColumn:Ventas Sales Bus Model.D2 Products.Sequence"
+    }, {
+      "name" : "Brand Key",
+      "sourceLogicalColumn" : "logicalColumn:Ventas Sales Bus Model.D2 Products.Brand Key"
+    }, {
+      "name" : "Lob Key",
+      "sourceLogicalColumn" : "logicalColumn:Ventas Sales Bus Model.D2 Products.Lob Key"
+    }, {
+      "name" : "Type Key",
+      "sourceLogicalColumn" : "logicalColumn:Ventas Sales Bus Model.D2 Products.Type Key"
+    } ]
+  }
+}

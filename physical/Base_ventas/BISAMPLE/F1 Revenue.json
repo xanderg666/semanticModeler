@@ -1,0 +1,35 @@
+{
+  "physicalTable" : {
+    "name" : "F1 Revenue",
+    "sourceTable" : "physicalTable:Base_ventas.BISAMPLE.SAMP_REVENUE_F",
+    "overrideSourceCacheSetting" : false,
+    "joins" : [ {
+      "rightTable" : "physicalTable:Base_ventas.BISAMPLE.D1 Time",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Base_ventas.BISAMPLE.F1 Revenue.BILL_DAY_DT",
+        "rightColumn" : "physicalColumn:Base_ventas.BISAMPLE.D1 Time.CALENDAR_DATE"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:Base_ventas.BISAMPLE.D2 Products",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Base_ventas.BISAMPLE.F1 Revenue.PROD_KEY",
+        "rightColumn" : "physicalColumn:Base_ventas.BISAMPLE.D2 Products.PROD_KEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:Base_ventas.BISAMPLE.D3 Customers",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Base_ventas.BISAMPLE.F1 Revenue.CUST_KEY",
+        "rightColumn" : "physicalColumn:Base_ventas.BISAMPLE.D3 Customers.CUST_KEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    } ]
+  }
+}

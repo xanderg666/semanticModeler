@@ -1,0 +1,101 @@
+{
+  "physicalTable" : {
+    "name" : "SAMP_CUSTOMERS_D",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "CUST_KEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "NAME",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "TYPE_KEY",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "FST_CONTACT_DT",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "SEGMENT_KEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "INCOME_LVL",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "STATUS_KEY",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "LST_ORDER_DT",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "ADDRESS_KEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "MARITAL_ST",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "PREV_MARITAL_ST",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "PREV_MARITAL_ST_DT",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "BIRTH_DT",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "CRDT_RATE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "GENDER",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "LTV",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "NUM_ATTRIBUTE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "TOTAL_VALUE",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

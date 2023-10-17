@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "D2 Products",
+    "sourceTable" : "physicalTable:Base_ventas.BISAMPLE.SAMP_PRODUCTS_D",
+    "overrideSourceCacheSetting" : false
+  }
+}

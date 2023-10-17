@@ -1,0 +1,12 @@
+{
+  "presentationTable" : {
+    "name" : "Base Facts",
+    "presentationColumns" : [ {
+      "name" : "Units",
+      "sourceLogicalColumn" : "logicalColumn:Ventas Sales Bus Model.F1 Revenue.Units"
+    }, {
+      "name" : "Revenue",
+      "sourceLogicalColumn" : "logicalColumn:Ventas Sales Bus Model.F1 Revenue.Revenue"
+    } ]
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "physicalTable" : {
+    "name" : "SAMP_REVENUE_F",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "SHIPTO_ADDR_KEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OFFICE_KEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "EMPL_KEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "PROD_KEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "ORDER_KEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "UNITS",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "DISCNT_VALUE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "BILL_MTH_KEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "BILL_QTR_KEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "BILL_DAY_DT",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "ORDER_DAY_DT",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "PAID_DAY_DT",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "DISCNT_RATE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "ORDER_STATUS",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "CURRENCY",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "ORDER_TYPE",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "CUST_KEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "SHIP_DAY_DT",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "COST_FIXED",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "COST_VARIABLE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "SRC_ORDER_NUMBER",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "ORDER_NUMBER",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "REVENUE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "ORDER_DTIME1_DB_TZ",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "ORDER_DTIME2_TIMEZONE",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "ORDER_DTIME2_CUSTOM_TZ",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

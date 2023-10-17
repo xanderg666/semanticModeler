@@ -1,0 +1,96 @@
+{
+  "physicalTable" : {
+    "name" : "SAMP_ADDRESSES_D",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "ADDRESS1",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "ADDRESS2",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "POSTAL_CODE",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "CITY",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "STATE_PROVINCE",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "CTRY_CD3_STATE_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "CTRY_CD3_STATE_ABBRV",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "CTRY_CD3_STATE_NAME_CITY",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "LONGITUDE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "LATITUDE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "ESTAB_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "REGION",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "ISO_COUNTRY_CODE3",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "COUNTRY_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "STATE_PROVINCE_ABBRV",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "ADDRESS_KEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "AREA",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

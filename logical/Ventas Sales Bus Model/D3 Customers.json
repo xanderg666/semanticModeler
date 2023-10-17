@@ -1,0 +1,270 @@
+{
+  "logicalTable" : {
+    "name" : "D3 Customers",
+    "type" : "DIMENSION",
+    "logicalColumns" : [ {
+      "name" : "Cust Key",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D3 Customers",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D3 Customers.CUST_KEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Name",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D3 Customers",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D3 Customers.NAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Type Key",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D3 Customers",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D3 Customers.TYPE_KEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Fst Contact Dt",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D3 Customers",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D3 Customers.FST_CONTACT_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Segment Key",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D3 Customers",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D3 Customers.SEGMENT_KEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Income Lvl",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D3 Customers",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D3 Customers.INCOME_LVL" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Status Key",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D3 Customers",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D3 Customers.STATUS_KEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Lst Order Dt",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D3 Customers",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D3 Customers.LST_ORDER_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Address Key",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D3 Customers",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D3 Customers.ADDRESS_KEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Marital St",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D3 Customers",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D3 Customers.MARITAL_ST" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Prev Marital St",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D3 Customers",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D3 Customers.PREV_MARITAL_ST" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Prev Marital St Dt",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D3 Customers",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D3 Customers.PREV_MARITAL_ST_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Birth Dt",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D3 Customers",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D3 Customers.BIRTH_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Crdt Rate",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D3 Customers",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D3 Customers.CRDT_RATE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Gender",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D3 Customers",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D3 Customers.GENDER" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Ltv",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D3 Customers",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D3 Customers.LTV" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Num Attribute",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D3 Customers",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D3 Customers.NUM_ATTRIBUTE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Total Value",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D3 Customers",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D3 Customers.TOTAL_VALUE" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "D3 Customers",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Base_ventas.BISAMPLE.D3 Customers" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "primaryKey" : [ "Cust Key" ]
+  }
+}

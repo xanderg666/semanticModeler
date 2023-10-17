@@ -1,0 +1,15 @@
+{
+  "subjectArea" : {
+    "name" : "Ventas_subjectArea",
+    "sourceBusinessModel" : "businessModel:Ventas Sales Bus Model",
+    "tableOrder" : [ {
+      "name" : "presentationTable:Ventas_subjectArea.Products"
+    }, {
+      "name" : "presentationTable:Ventas_subjectArea.Time"
+    }, {
+      "name" : "presentationTable:Ventas_subjectArea.Customer"
+    }, {
+      "name" : "presentationTable:Ventas_subjectArea.Base Facts"
+    } ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "D4 Addresses",
+    "sourceTable" : "physicalTable:Base_ventas.BISAMPLE.SAMP_ADDRESSES_D",
+    "overrideSourceCacheSetting" : false
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "logicalTable" : {
+    "name" : "F1 Revenue",
+    "type" : "FACT",
+    "logicalColumns" : [ {
+      "name" : "Units",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F1 Revenue",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.F1 Revenue.UNITS" ]
+          }
+        } ]
+      },
+      "aggregation" : {
+        "rule" : "COUNT",
+        "dataIsDense" : false
+      }
+    }, {
+      "name" : "Revenue",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F1 Revenue",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.F1 Revenue.REVENUE" ]
+          }
+        } ]
+      },
+      "aggregation" : {
+        "rule" : "SUM",
+        "dataIsDense" : false
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "F1 Revenue",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Base_ventas.BISAMPLE.F1 Revenue" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "joins" : [ {
+      "rightTable" : "logicalTable:Ventas Sales Bus Model.D1 Time",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "None"
+    }, {
+      "rightTable" : "logicalTable:Ventas Sales Bus Model.D2 Products",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "None"
+    }, {
+      "rightTable" : "logicalTable:Ventas Sales Bus Model.D3 Customers",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "None"
+    } ]
+  }
+}

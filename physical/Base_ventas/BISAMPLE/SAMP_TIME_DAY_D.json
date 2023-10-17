@@ -1,0 +1,256 @@
+{
+  "physicalTable" : {
+    "name" : "SAMP_TIME_DAY_D",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "CALENDAR_DATE",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "DAY_KEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "CAL_HALF",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "CAL_MONTH",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "CAL_QTR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "CAL_WEEK",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "CAL_YEAR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "DAY_OF_MONTH",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "DAY_OF_WEEK",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "DAY_OF_YEAR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "FSCL_HALF",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "FSCL_MONTH",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "FSCL_QTR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "FSCL_WEEK",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "FSCL_YEAR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "JULIAN_DAY_NUM",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "JULIAN_MONTH_NUM",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "JULIAN_QTR_NUM",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "JULIAN_WEEK_NUM",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "PER_NAME_HALF",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "PER_NAME_MONTH",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "PER_NAME_QTR",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "PER_NAME_WEEK",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "PER_NAME_YEAR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "DAYS_IN_QTR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "DAYS_IN_MTH",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "BEG_OF_QTR_WID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "BEG_OF_MTH_WID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "BEG_OF_WEEK_WID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "HOLIDAY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "LOADED",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "CAL_MONTH_END_DATE",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "CAL_QTR_END_DATE",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "CAL_HALF_YEAR_END_DATE",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "CAL_YEAR_END_DATE",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "FSCL_MONTH_END_DATE",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "FSCL_QTR_END_DATE",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "FSCL_YEAR_END_DATE",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "CAL_WEEK_END_DATE",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "FSCL_WEEK_END_DATE",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "DAYS_IN_WEEK",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "DAYS_IN_HALF_YEAR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "DAYS_IN_YEAR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "DAYS_IN_FSCL_WEEK",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "DAYS_IN_FSCL_MONTH",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "DAYS_IN_FSCL_QTR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "DAYS_IN_FSCL_HALF_YEAR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "DAYS_IN_FSCL_YEAR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "TOTAL_VALUE",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

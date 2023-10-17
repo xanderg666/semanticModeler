@@ -1,0 +1,24 @@
+{
+  "presentationTable" : {
+    "name" : "Time",
+    "presentationColumns" : [ {
+      "name" : "Calendar Date",
+      "sourceLogicalColumn" : "logicalColumn:Ventas Sales Bus Model.D1 Time.Calendar Date"
+    }, {
+      "name" : "Per Name Half",
+      "sourceLogicalColumn" : "logicalColumn:Ventas Sales Bus Model.D1 Time.Per Name Half"
+    }, {
+      "name" : "Per Name Month",
+      "sourceLogicalColumn" : "logicalColumn:Ventas Sales Bus Model.D1 Time.Per Name Month"
+    }, {
+      "name" : "Per Name Qtr",
+      "sourceLogicalColumn" : "logicalColumn:Ventas Sales Bus Model.D1 Time.Per Name Qtr"
+    }, {
+      "name" : "Per Name Week",
+      "sourceLogicalColumn" : "logicalColumn:Ventas Sales Bus Model.D1 Time.Per Name Week"
+    }, {
+      "name" : "Per Name Year",
+      "sourceLogicalColumn" : "logicalColumn:Ventas Sales Bus Model.D1 Time.Per Name Year"
+    } ]
+  }
+}

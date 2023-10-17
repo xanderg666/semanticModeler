@@ -1,0 +1,7 @@
+{
+  "businessModel" : {
+    "name" : "Ventas Sales Bus Model",
+    "description" : "bussines model",
+    "disable" : false
+  }
+}

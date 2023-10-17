@@ -1,0 +1,71 @@
+{
+  "physicalTable" : {
+    "name" : "SAMP_PRODUCTS_D",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "PROD_KEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "PROD_DSC",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "ATTRIBUTE_2",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "ATTRIBUTE_1",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "TYPE",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "LOB",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "BRAND",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "SEQUENCE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "BRAND_KEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "LOB_KEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "TYPE_KEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "TOTAL_VALUE",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}
