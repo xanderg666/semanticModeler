@@ -1,6 +1,7 @@
 {
   "physicalTable" : {
     "name" : "SAMP_PRODUCTS_D",
+    "description" : "Test product description to show semantic model",
     "sourceType" : "TABLE",
     "physicalColumns" : [ {
       "name" : "PROD_KEY",
