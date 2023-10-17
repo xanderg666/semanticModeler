@@ -2,6 +2,7 @@
   "logicalTable" : {
     "name" : "D3 Customers",
     "type" : "DIMENSION",
+    "primaryKey" : [ "Cust Key" ],
     "logicalColumns" : [ {
       "name" : "Cust Key",
       "dataType" : "NUMERIC",
@@ -421,7 +422,8 @@
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D4 Addresses.REGION" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Region"
     }, {
       "name" : "Iso Country Code3",
       "dataType" : "VARCHAR",
@@ -449,7 +451,8 @@
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D4 Addresses.COUNTRY_NAME" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Country"
     }, {
       "name" : "State Province Abbrv",
       "dataType" : "VARCHAR",
@@ -477,7 +480,8 @@
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D4 Addresses.AREA" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Customer Area"
     } ],
     "logicalTableSources" : [ {
       "name" : "LTS1 Customers",
@@ -495,6 +499,63 @@
       "enableFragmentSelection" : false,
       "distinctValues" : false
     } ],
-    "primaryKey" : [ "Cust Key" ]
+    "hierarchyType" : "LEVEL_BASED",
+    "levelBasedHierarchy" : {
+      "defaultRootLevel" : "Total",
+      "ragged" : false,
+      "skipped" : false,
+      "logicalLevels" : [ {
+        "name" : "Total",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : true,
+        "disableAggregateToHigherLevel" : false
+      }, {
+        "name" : "Region",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Region" ],
+        "displayKey" : "Region"
+      }, {
+        "name" : "Customer Area",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Area" ],
+        "displayKey" : "Area"
+      }, {
+        "name" : "Country",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Country Name" ],
+        "displayKey" : "Country Name"
+      }, {
+        "name" : "State",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "State Province" ],
+        "displayKey" : "State Province"
+      }, {
+        "name" : "Customer City",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "City" ],
+        "displayKey" : "City"
+      }, {
+        "name" : "Customer Postal Code",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Postal Code" ],
+        "displayKey" : "Postal Code"
+      } ],
+      "logicalHierarchies" : [ {
+        "name" : "H1-Customers",
+        "levels" : [ "Total", "Region", "Customer Area", "Country", "State", "Customer City", "Customer Postal Code" ]
+      } ]
+    }
   }
 }
