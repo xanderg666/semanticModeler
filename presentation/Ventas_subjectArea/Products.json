@@ -25,6 +25,31 @@
     }, {
       "name" : "Type Key",
       "sourceLogicalColumn" : "logicalColumn:Ventas Sales Bus Model.D2 Products.Type Key"
+    } ],
+    "hierarchies" : [ {
+      "name" : "H1_products",
+      "sourceLogicalTable" : "logicalTable:Ventas Sales Bus Model.D2 Products",
+      "localization" : { },
+      "levels" : [ {
+        "name" : "Total",
+        "sourceLogicalLevel" : "logicalLevel:Ventas Sales Bus Model.D2 Products.Total",
+        "localization" : { }
+      }, {
+        "name" : "Product Brand",
+        "sourceLogicalLevel" : "logicalLevel:Ventas Sales Bus Model.D2 Products.Product Brand",
+        "displayColumn" : "presentationColumn:Ventas_subjectArea.Products.Brand",
+        "localization" : { }
+      }, {
+        "name" : "Product LOB",
+        "sourceLogicalLevel" : "logicalLevel:Ventas Sales Bus Model.D2 Products.Product LOB",
+        "displayColumn" : "presentationColumn:Ventas_subjectArea.Products.Line of Business",
+        "localization" : { }
+      }, {
+        "name" : "Product Type",
+        "sourceLogicalLevel" : "logicalLevel:Ventas Sales Bus Model.D2 Products.Product Type",
+        "displayColumn" : "presentationColumn:Ventas_subjectArea.Products.Type",
+        "localization" : { }
+      } ]
     } ]
   }
 }
