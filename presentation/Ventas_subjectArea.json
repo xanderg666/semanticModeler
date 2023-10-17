@@ -10,6 +10,8 @@
       "name" : "presentationTable:Ventas_subjectArea.Customer"
     }, {
       "name" : "presentationTable:Ventas_subjectArea.Base Facts"
+    }, {
+      "name" : "presentationTable:Ventas_subjectArea.Customer Regions"
     } ]
   }
 }

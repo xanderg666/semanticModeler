@@ -9,7 +9,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "F1 Revenue",
+          "logicalTableSource" : "LTS1 Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.F1 Revenue.UNITS" ]
@@ -27,7 +27,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "F1 Revenue",
+          "logicalTableSource" : "LTS1 Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.F1 Revenue.REVENUE" ]
@@ -40,7 +40,7 @@
       }
     } ],
     "logicalTableSources" : [ {
-      "name" : "F1 Revenue",
+      "name" : "LTS1 Revenue",
       "disable" : false,
       "tableMapping" : {
         "tables" : [ "physicalTable:Base_ventas.BISAMPLE.F1 Revenue" ]

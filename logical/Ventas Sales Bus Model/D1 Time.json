@@ -9,7 +9,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.CALENDAR_DATE" ]
@@ -23,7 +23,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.DAY_KEY" ]
@@ -37,7 +37,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.CAL_HALF" ]
@@ -51,7 +51,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.CAL_MONTH" ]
@@ -65,7 +65,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.CAL_QTR" ]
@@ -79,7 +79,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.CAL_WEEK" ]
@@ -93,7 +93,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.CAL_YEAR" ]
@@ -107,7 +107,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.DAY_OF_MONTH" ]
@@ -121,7 +121,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.DAY_OF_WEEK" ]
@@ -135,7 +135,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.DAY_OF_YEAR" ]
@@ -149,7 +149,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.FSCL_HALF" ]
@@ -163,7 +163,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.FSCL_MONTH" ]
@@ -177,7 +177,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.FSCL_QTR" ]
@@ -191,7 +191,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.FSCL_WEEK" ]
@@ -205,7 +205,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.FSCL_YEAR" ]
@@ -219,7 +219,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.JULIAN_DAY_NUM" ]
@@ -233,7 +233,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.JULIAN_MONTH_NUM" ]
@@ -247,7 +247,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.JULIAN_QTR_NUM" ]
@@ -261,7 +261,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.JULIAN_WEEK_NUM" ]
@@ -275,7 +275,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.PER_NAME_HALF" ]
@@ -289,7 +289,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.PER_NAME_MONTH" ]
@@ -303,7 +303,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.PER_NAME_QTR" ]
@@ -317,7 +317,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.PER_NAME_WEEK" ]
@@ -331,7 +331,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.PER_NAME_YEAR" ]
@@ -345,7 +345,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.DAYS_IN_QTR" ]
@@ -359,7 +359,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.DAYS_IN_MTH" ]
@@ -373,7 +373,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.BEG_OF_QTR_WID" ]
@@ -387,7 +387,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.BEG_OF_MTH_WID" ]
@@ -401,7 +401,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.BEG_OF_WEEK_WID" ]
@@ -415,7 +415,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.HOLIDAY" ]
@@ -429,7 +429,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.LOADED" ]
@@ -443,7 +443,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.CAL_MONTH_END_DATE" ]
@@ -457,7 +457,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.CAL_QTR_END_DATE" ]
@@ -471,7 +471,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.CAL_HALF_YEAR_END_DATE" ]
@@ -485,7 +485,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.CAL_YEAR_END_DATE" ]
@@ -499,7 +499,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.FSCL_MONTH_END_DATE" ]
@@ -513,7 +513,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.FSCL_QTR_END_DATE" ]
@@ -527,7 +527,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.FSCL_YEAR_END_DATE" ]
@@ -541,7 +541,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.CAL_WEEK_END_DATE" ]
@@ -555,7 +555,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.FSCL_WEEK_END_DATE" ]
@@ -569,7 +569,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.DAYS_IN_WEEK" ]
@@ -583,7 +583,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.DAYS_IN_HALF_YEAR" ]
@@ -597,7 +597,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.DAYS_IN_YEAR" ]
@@ -611,7 +611,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.DAYS_IN_FSCL_WEEK" ]
@@ -625,7 +625,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.DAYS_IN_FSCL_MONTH" ]
@@ -639,7 +639,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.DAYS_IN_FSCL_QTR" ]
@@ -653,7 +653,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.DAYS_IN_FSCL_HALF_YEAR" ]
@@ -667,7 +667,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.DAYS_IN_FSCL_YEAR" ]
@@ -681,7 +681,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D1 Time",
+          "logicalTableSource" : "LTS1 Time",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D1 Time.TOTAL_VALUE" ]
@@ -690,7 +690,7 @@
       }
     } ],
     "logicalTableSources" : [ {
-      "name" : "D1 Time",
+      "name" : "LTS1 Time",
       "disable" : false,
       "tableMapping" : {
         "tables" : [ "physicalTable:Base_ventas.BISAMPLE.D1 Time" ]

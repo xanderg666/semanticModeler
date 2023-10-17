@@ -9,7 +9,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D2 Products",
+          "logicalTableSource" : "LTS1 Products",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D2 Products.PROD_KEY" ]
@@ -23,7 +23,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D2 Products",
+          "logicalTableSource" : "LTS1 Products",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D2 Products.PROD_DSC" ]
@@ -37,7 +37,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D2 Products",
+          "logicalTableSource" : "LTS1 Products",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D2 Products.ATTRIBUTE_2" ]
@@ -51,7 +51,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D2 Products",
+          "logicalTableSource" : "LTS1 Products",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D2 Products.ATTRIBUTE_1" ]
@@ -65,7 +65,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D2 Products",
+          "logicalTableSource" : "LTS1 Products",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D2 Products.TYPE" ]
@@ -79,7 +79,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D2 Products",
+          "logicalTableSource" : "LTS1 Products",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D2 Products.LOB" ]
@@ -93,7 +93,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D2 Products",
+          "logicalTableSource" : "LTS1 Products",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D2 Products.BRAND" ]
@@ -107,7 +107,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D2 Products",
+          "logicalTableSource" : "LTS1 Products",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D2 Products.SEQUENCE" ]
@@ -121,7 +121,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D2 Products",
+          "logicalTableSource" : "LTS1 Products",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D2 Products.BRAND_KEY" ]
@@ -135,7 +135,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D2 Products",
+          "logicalTableSource" : "LTS1 Products",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D2 Products.LOB_KEY" ]
@@ -149,7 +149,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D2 Products",
+          "logicalTableSource" : "LTS1 Products",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D2 Products.TYPE_KEY" ]
@@ -163,7 +163,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D2 Products",
+          "logicalTableSource" : "LTS1 Products",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Base_ventas.BISAMPLE.D2 Products.TOTAL_VALUE" ]
@@ -172,7 +172,7 @@
       }
     } ],
     "logicalTableSources" : [ {
-      "name" : "D2 Products",
+      "name" : "LTS1 Products",
       "disable" : false,
       "tableMapping" : {
         "tables" : [ "physicalTable:Base_ventas.BISAMPLE.D2 Products" ]
